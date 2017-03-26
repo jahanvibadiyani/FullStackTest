@@ -17,7 +17,7 @@ class iStorageImple implements iStorage
             mkdir($this->dir);
         }
 
-	   $filename = $this->dir.'/'.$this->filename;
+       $filename = $this->dir.'/'.$this->filename;
        $this->outputCsv($filename,$content);
     }
 
@@ -45,4 +45,5 @@ class iStorageImple implements iStorage
 
 		}
 		
-	} }
+	}
+}
